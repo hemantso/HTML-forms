@@ -1,25 +1,25 @@
 * {
     margin: 0;
-    padding:0;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 0;
+    font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 body {
     background-color: #eceef1;
 }
 .nav {
-    padding: 0px 20px;
+    padding: 0 20px;
     display: inline-flex;
     float: right;
-    margin: 5px 53px 0px 0px;
+    margin: 5px 53px 0 0;
     font-weight: 400;
     color: #505050;
     font-family: sans-serif;
 }
 .nav-text a {
-    text-decoration:none;
+    text-decoration: none;
 }
 .nav .signin-button .fa {
-    margin: 0px 5px 0px 0px;
+    margin: 0 5px 0 0;
 }
 .signin-button button {
     background-color: #0077c5;
@@ -84,6 +84,7 @@ border-box {
     text-align: left;
     margin: 20px 0;
 }
+
 @media only screen and (max-width: 420px) {
     .signup-form {
         margin-right: 0;
@@ -124,7 +125,6 @@ input[type="password"] {
        -moz-box-sizing: border-box;
         -ms-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-
     height: 35px;
     border-radius: 3px;
     border: 1px solid #bbb;
@@ -149,7 +149,6 @@ input[type="submit"] {
     background-color: #0077c5;
     border-radius: 5px;
     border:  #0077c5;
-
 }
 .signup-form small {
     display: block;
