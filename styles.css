@@ -58,6 +58,12 @@ body {
     background-position: 0 0;
     margin: 0px 0px 19px 371px;
 }
+.mint-img:hover {
+    cursor: pointer;
+}
+button:hover {
+    cursor: pointer;
+}
 #img2 img {
     height: 14px;
     margin: 2px 8px 0px 4px;
@@ -173,10 +179,10 @@ small {
     margin: 16px -30px -10px -30px;
     justify-content: center;
 }
-
 a {
     text-decoration: none;
 }
+
 footer {
     background-color: #eceef1;
     margin: -10px 0px -10px -30px;
@@ -193,4 +199,11 @@ footer ul{
 }
 footer ul li {
     margin-right: 14px;
+}
+footer a {
+    text-decoration: none;
+    color: grey;
+}
+footer a:hover {
+    border-bottom: 1px solid grey;
 }
