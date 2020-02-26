@@ -1,4 +1,4 @@
-# Project-2: mint.com signup page clone - HTML forms
+# Project-2: mint.com's signup page  - HTML forms
 
 > This project consists of building an HTML document that matches the appearance of mint.com's signup page.
 
@@ -21,6 +21,11 @@ Use of vectors of the icon on signup with css and all of the page it's responsiv
 - Twitter: [@twitterhandle](https://twitter.com/abdelperez11)
 - Linkedin: [linkedin](https://www.linkedin.com/in/hemant-soni-97427b193/)
 
+👤 **Muhammad Arslan**
+
+- Github: [@githubhandle](https://github.com/arslanbisharat)
+- Twitter: [@twitterhandle](https://twitter.com/arslan_bisharat)
+- Linkedin: [linkedin](https://www.linkedin.com/in/muhammad-arslan)
 
 ## 🤝 Contributing
 

@@ -1,3 +1,87 @@
 * {
-    margin: 0px;
+    margin: 0;
+    padding:0;
+}
+body {
+    background-color: whitesmoke;
+    
+}
+.nav {
+    display: inline-flex;
+    float: right;
+    margin: 11px 53px 0px 0px;
+    font-size: small;
+}
+.nav-text {
+    margin-right: 7px;
+}
+.nav-button button{
+    background-color: #0077c5;
+    color: white;
+    height: 36px;
+    border-radius: 5px;
+    width: 132%;
+    border:0px;
+}
+.nav-button button i {
+    margin-right: 7px;
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    
+}
+#logo ul {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 282px;
+}
+.logo-container {
+    margin-top: 83px;
+    margin-left: 14px;
+}
+.mint-img {
+    width: 118px;
+    height: 35px;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new.png);
+    background-position: 0 0;
+    margin: 0px 0px 23px 374px;
+}
+#img2 img {
+    height: 14px;
+    margin: 2px 8px 0px 4px;
+}
+#img4 img {
+    height: 20px;
+    margin: 1px 8px 0px 4px;
+}
+#img6 img {
+    height: 16px;
+    margin: 1px 8px 0px 4px;
+}
+.logo-container ul img {
+    height: 22px;
+}
+#main {
+    display: flex;
+    margin-top: 18px;
+    justify-content: center; 
+}
+
+form {
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.signup-form {
+    display: flex;
+    width: 380px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    box-sizing: border-box;
+    overflow: visible;
+    margin: 0 auto; 
+    color: #4c4c4c;
+    flex-direction: column;
 }
