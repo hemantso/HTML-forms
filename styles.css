@@ -1,200 +1,200 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 body {
-    background-color: #eceef1;
+		background-color: #eceef1;
 }
 .nav {
-    padding: 0 20px;
-    display: inline-flex;
-    float: right;
-    margin: 5px 53px 0 0;
-    font-weight: 400;
-    color: #505050;
-    font-family: sans-serif;
+		padding: 0 20px;
+		display: inline-flex;
+		float: right;
+		margin: 5px 53px 0 0;
+		font-weight: 400;
+		color: #505050;
+		font-family: sans-serif;
 }
 .nav-text a {
-    text-decoration: none;
+	 text-decoration: none;
 }
 .nav .signin-button .fa {
-    margin: 0 5px 0 0;
+	 margin: 0 5px 0 0;
 }
 .signin-button button {
-    background-color: #0077c5;
-    color: white;
-    height: 34px;
-    border-radius: 5px;
-    width: 167%;
-    border: 1px solid #4c4c4c;
-    margin: 3px 0 0 4px;
+  background-color: #0077c5;
+		color: white;
+		height: 34px;
+		border-radius: 5px;
+		width: 167%;
+		border: 1px solid #4c4c4c;
+		margin: 3px 0 0 4px;
 }
 .nav-button button i {
-    margin-right: 7px;
+	 margin-right: 7px;
 }
 #logo {
-    display: flex;
-    justify-content: center;
+		display: flex;
+		justify-content: center;
 }
 #logo ul {
-    list-style: none;
-    display: inline-flex;
-    margin-left: 282px;
+		list-style: none;
+		display: inline-flex;
+		margin-left: 282px;
 }
 .logo-container {
-    margin-top: 86px;
-    margin-left: 81px;
+		margin-top: 86px;
+		margin-left: 81px;
 }
 .mint-img {
-    width: 118px;
-    height: 35px;
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new.png);
-    background-position: 0 0;
-    margin: 0px 0px 19px 371px;
+  width: 118px;
+		height: 35px;
+		background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new.png);
+		background-position: 0 0;
+		margin: 0px 0px 19px 371px;
 }
 .mint-img:hover {
-    cursor: pointer;
+		cursor: pointer;
 }
 button:hover {
-    cursor: pointer;
+		cursor: pointer;
 }
 #img2 img {
-    height: 14px;
-    margin: 2px 8px 0px 4px;
+		height: 14px;
+		margin: 2px 8px 0px 4px;
 }
 #img4 img {
-    height: 20px;
-    margin: 1px 8px 0px 4px;
+		height: 20px;
+		margin: 1px 8px 0px 4px;
 }
 #img6 img {
-    height: 16px;
-    margin: 1px 8px 0px 4px;
+		height: 16px;
+		margin: 1px 8px 0px 4px;
 }
 .logo-container ul img {
-    height: 22px;
+		height: 22px;
 }
 border-box {
-    overflow: visible;
-    margin: 0 auto; 
-    color: #4c4c4c;
-    flex-direction: column;
+		overflow: visible;
+		margin: 0 auto; 
+		color: #4c4c4c;
+		flex-direction: column;
 }
 .signup-form form {
-    text-align: left;
-    margin: 20px 0;
+		text-align: left;
+		margin: 20px 0;
 }
 
 @media only screen and (max-width: 420px) {
-    .signup-form {
-        margin-right: 0;
-        margin-left: 0;
-        width: 90%;
-        padding-left: 5%;
-        padding-right: 5%;
-        border: none;
-    }
+		.signup-form {
+						margin-right: 0;
+						margin-left: 0;
+						width: 90%;
+						padding-left: 5%;
+						padding-right: 5%;
+						border: none;
+	}
 }
 .signup-form {
-    font-size: 0.8rem;
-    color: #444;
-    width: 320px;
-    border: 1px solid #bbb;
-    padding: 10px 30px;
-    text-align: center;
-    font-family: "AvenirNext","Avenir",Helvetica Neue,Helvetica,Arial,sans-serif;
-    margin: 16px auto;
-    background-color: #fff;
+		font-size: 0.8rem;
+		color: #444;
+		width: 320px;
+		border: 1px solid #bbb;
+		padding: 10px 30px;
+		text-align: center;
+		font-family: "AvenirNext","Avenir",Helvetica Neue,Helvetica,Arial,sans-serif;
+		margin: 16px auto;
+		background-color: #fff;
 }
 .signup-intro {
-    padding: 14px 0px 0px 0px;
-    margin-top: 16px;
+		padding: 14px 0px 0px 0px;
+		margin-top: 16px;
 }
 .signup-intro h1 {
-    color: #4c4c4c;
-    font-weight: 100;
-    font-size: 23px;
+		color: #4c4c4c;
+		font-weight: 100;
+		font-size: 23px;
 }
 .signup-form p {
-    margin-top: 20px;
+		margin-top: 20px;
 }
 input[type="email"],
 input[type="tel"],
 input[type="password"] {
-            box-sizing: border-box;
-       -moz-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    height: 35px;
-    border-radius: 3px;
-    border: 1px solid #bbb;
-    margin: 10px auto 25px auto;
-    width: 100%;
-    display: block;
-    font-size: 1rem;
-    padding: 0 8px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		height: 35px;
+		border-radius: 3px;
+  border: 1px solid #bbb;
+		margin: 10px auto 25px auto;
+		width: 100%;
+		display: block;
+		font-size: 1rem;
+		padding: 0 8px;
 }
 input[type="password"] {
-    background: url(https://raw.githubusercontent.com/joshysmart/mint-signup-form/master/img/lock-left.png) no-repeat 0 60%/22px 23px;
-    background-position: 285px 5px;
+		background: url(https://raw.githubusercontent.com/joshysmart/mint-signup-form/master/img/lock-left.png) no-repeat 0 60%/22px 23px;
+		background-position: 285px 5px;
 }
 input[type="number"] {
-    margin-bottom: 0;
+		margin-bottom: 0;
 }
 input[type="submit"] {
-    font-size: 1rem;
-    color: white;
-    width: 100%;
-    padding: 14px;
-    background-color: #0077c5;
-    border-radius: 5px;
-    border:  #0077c5;
+		font-size: 1rem;
+		color: white;
+		width: 100%;
+		padding: 14px;
+		background-color: #0077c5;
+		border-radius: 5px;
+		border:  #0077c5;
 }
 .signup-form small {
-    display: block;
-    margin: -24px 0 30px 0;
+		display: block;
+		margin: -24px 0 30px 0;
 }
 #captcha small {
-    display: block;
-    margin: 25px 0 30px 0;
+		display: block;
+		margin: 25px 0 30px 0;
 }
 .Agreement {
-    color: #999;
-    padding: 15px 10px;
-    line-height: 1.4rem;
-    font-size: 13px;
+		color: #999;
+		padding: 15px 10px;
+		line-height: 1.4rem;
+		font-size: 13px;
 }
 #captcha {
-    background-color: #eceef1;
-    display: flex;
-    margin: 16px -30px -10px -30px;
-    justify-content: center;
-    height: 57px;
+		background-color: #eceef1;
+		display: flex;
+		margin: 16px -30px -10px -30px;
+		justify-content: center;
+		height: 57px;
 }
 a {
-    text-decoration: none;
+		text-decoration: none;
 }
 footer {
-    background-color: #eceef1;
-    margin: -10px 0px -10px -30px;
-    width: auto;
-    padding: 20px;
-    font-size: .8rem;
-    text-align: center;
-    line-height: 19px;
-    color: #505050;
+		background-color: #eceef1;
+		margin: -10px 0px -10px -30px;
+		width: auto;
+		padding: 20px;
+		font-size: .8rem;
+		text-align: center;
+		line-height: 19px;
+		color: #505050;
 }
 footer ul {
-    display: inline-flex;
-    list-style-type: none;
+		display: inline-flex;
+		list-style-type: none;
 }
 footer ul li {
-    margin-right: 14px;
+		margin-right: 14px;
 }
 footer a {
-    text-decoration: none;
-    color: grey;
+		text-decoration: none;
+		color: grey;
 }
 footer a:hover {
-    border-bottom: 1px solid grey;
+		border-bottom: 1px solid grey;
 }
