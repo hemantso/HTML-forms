@@ -1,27 +1,37 @@
 * {
     margin: 0;
     padding:0;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 body {
     background-color: whitesmoke;
     
 }
 .nav {
+    padding: 0px 20px;
     display: inline-flex;
     float: right;
     margin: 11px 53px 0px 0px;
     font-size: small;
+   
 }
-.nav-text {
-    margin-right: 7px;
+
+.nav-text a {
+    text-decoration:none;
 }
-.nav-button button{
-    background-color: #0077c5;
+
+.nav .signin-button .fa{
+    margin: 0px 5px 0px 0px;
+}
+
+.signin-button button{
+    background-color: #17679c;
     color: white;
     height: 36px;
     border-radius: 5px;
-    width: 132%;
-    border:0px;
+    width: 176%;
+    border: 1px solid #4c4c4c;
+    margin: 0 0 0 6px;
 }
 .nav-button button i {
     margin-right: 7px;
@@ -62,26 +72,101 @@ body {
 .logo-container ul img {
     height: 22px;
 }
-#main {
-    display: flex;
-    margin-top: 18px;
-    justify-content: center; 
-}
-
-form {
-    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-}
-.signup-form {
-    display: flex;
-    width: 380px;
-    padding: 30px;
-    background-color: #fff;
-    border: 1px solid #c7c7c7;
-    box-sizing: border-box;
+border-box{
     overflow: visible;
     margin: 0 auto; 
     color: #4c4c4c;
     flex-direction: column;
+}
+
+.signup-form form {
+    text-align: left;
+    margin: 20px 0;
+}
+@media only screen and (max-width: 420px) {
+    .signup-form {
+        margin-right: 0;
+        margin-left: 0;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border: none;
+    }
+}
+.signup-form {
+    font-size: 0.8rem;
+    color: #444;
+    width: 320px;
+    border: 1px solid #bbb;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px auto;
+    background-color:#eee;
+}
+
+.signup-form p {
+    margin-top: 20px;
+}
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+            box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    margin: 10px auto 30px auto;
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    padding: 0 8px;
+}
+
+input[type="number"] {
+    margin-bottom: 0;
+}
+
+input[type="submit"] {
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    padding: 14px;
+    background-color: rgb(42, 131, 219);
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
+}
+
+small {
+    display: block;
+    margin: 5px 0 30px 0;
+}
+.Agreement {
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+    color: #999;
+    padding: 15px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #eee;
+    margin: -10px -30px -10px -30px;
+    width: auto;
+    padding: 20px;
+    font-size: .8rem;
+    text-align: center;
+}
+ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+ul li{
+    padding: 4px;
 }
