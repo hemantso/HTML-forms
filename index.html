@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <section>
+        <nav>
             <div class="nav">
                 <div class="nav-text">
                     <small>Already have an Intuit account?<br>
@@ -21,10 +21,10 @@
                     <button><i class="fa fa-lock"></i>Sign In</button>
                   </div>
             </div>
-        </section>
-        <section id="logo">
+        </nav>
+        <nav id="logo">
             <div class="logo-container">
-                <div class="mint-img"><a href="#"></a></div>
+                <div class="mint-img"></div>
                     <ul>
                         <li id="img1">
                            <a href=""> <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/mint-favicon.svg" alt="icon1">
@@ -52,27 +52,31 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </nav>
         </header>
         <main id="main">
             <div class="signup-form">
                 <div class="signup-intro">
-                <h1>Create an Intuit account</h1>
-                <p>One account for everything Intuit, including Mint. <br><a href="#">Learn more</a></p>
+                    <h1>Create an Intuit account</h1>
+                    <p>One account for everything Intuit, including Mint. <br><a href="#">Learn more</a></p>
                 </div>
                 <form action="submit">
-                    <label>Email address <input type="email"></label>
-                    <label>Phone (recommended) <input type="number"><small>Standard call, messaging or data rates may apply.</small></label>
-                    <label>Password<input type="password" ></label>
+                    <label for="email">Email address</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="phone">Phone (recommended)</label><br>
+                    <input type="tel" id="phone" name="phone">
+                    <small>Standard call, messaging or data rates may apply.</small>
+                    <label for="password">Password<input type="password" id="password"></label>
                     <input type="submit" name="submit" value="Create Account">
                 </form>
                 <p class="Agreement">
-                  <em>By click Create Account, you agree to our <a href="#">terms</a> and have read our<a href="#">Privacy Statement</a><div class=""></em>
-                
-            </div> 
-            <div id="captcha">
-                <small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</small>
+                    By click Create Account, you agree to our <a href="#">terms</a> and have read our<a href="#">Privacy Statement</a>
+                </p>
+     
+                <p id="captcha"> <small >Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</small>
+                </p>
             </div>
+            
         </main>
         <footer>
             <div class="footer-ul">
