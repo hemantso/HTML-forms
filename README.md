@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML document that matches the appearance of mint.com's signup page.
 
-![screenshot](./images/Screenshot.png)
+![screenshot](./image/Screenshot.png)
 
 Use of vectors of the icon on signup with css and all of the page it's responsive.
 
