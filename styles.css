@@ -5,7 +5,6 @@
 }
 body {
     background-color: #eceef1;
-    
 }
 .nav {
     padding: 0px 20px;
@@ -16,16 +15,13 @@ body {
     color: #505050;
     font-family: sans-serif;
 }
-
 .nav-text a {
     text-decoration:none;
 }
-
-.nav .signin-button .fa{
+.nav .signin-button .fa {
     margin: 0px 5px 0px 0px;
 }
-
-.signin-button button{
+.signin-button button {
     background-color: #0077c5;
     color: white;
     height: 34px;
@@ -40,7 +36,6 @@ body {
 #logo {
     display: flex;
     justify-content: center;
-    
 }
 #logo ul {
     list-style: none;
@@ -79,13 +74,12 @@ button:hover {
 .logo-container ul img {
     height: 22px;
 }
-border-box{
+border-box {
     overflow: visible;
     margin: 0 auto; 
     color: #4c4c4c;
     flex-direction: column;
 }
-
 .signup-form form {
     text-align: left;
     margin: 20px 0;
@@ -115,7 +109,7 @@ border-box{
     padding: 14px 0px 0px 0px;
     margin-top: 16px;
 }
-.signup-intro h1{
+.signup-intro h1 {
     color: #4c4c4c;
     font-weight: 100;
     font-size: 23px;
@@ -147,7 +141,6 @@ input[type="password"] {
 input[type="number"] {
     margin-bottom: 0;
 }
-
 input[type="submit"] {
     font-size: 1rem;
     color: white;
@@ -162,7 +155,6 @@ input[type="submit"] {
     display: block;
     margin: -24px 0 30px 0;
 }
-
 #captcha small {
     display: block;
     margin: 25px 0 30px 0;
@@ -183,7 +175,6 @@ input[type="submit"] {
 a {
     text-decoration: none;
 }
-
 footer {
     background-color: #eceef1;
     margin: -10px 0px -10px -30px;
@@ -194,7 +185,7 @@ footer {
     line-height: 19px;
     color: #505050;
 }
-footer ul{
+footer ul {
     display: inline-flex;
     list-style-type: none;
 }
