@@ -4,16 +4,17 @@
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 body {
-    background-color: whitesmoke;
+    background-color: #eceef1;
     
 }
 .nav {
     padding: 0px 20px;
     display: inline-flex;
     float: right;
-    margin: 11px 53px 0px 0px;
-    font-size: small;
-   
+    margin: 5px 53px 0px 0px;
+    font-weight: 400;
+    color: #505050;
+    font-family: sans-serif;
 }
 
 .nav-text a {
@@ -25,13 +26,13 @@ body {
 }
 
 .signin-button button{
-    background-color: #17679c;
+    background-color: #0077c5;
     color: white;
-    height: 36px;
+    height: 34px;
     border-radius: 5px;
-    width: 176%;
+    width: 167%;
     border: 1px solid #4c4c4c;
-    margin: 0 0 0 6px;
+    margin: 4px 0 0 4px;
 }
 .nav-button button i {
     margin-right: 7px;
@@ -47,15 +48,15 @@ body {
     margin-left: 282px;
 }
 .logo-container {
-    margin-top: 83px;
-    margin-left: 14px;
+    margin-top: 86px;
+    margin-left: 81px;
 }
 .mint-img {
     width: 118px;
     height: 35px;
     background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new.png);
     background-position: 0 0;
-    margin: 0px 0px 23px 374px;
+    margin: 0px 0px 19px 371px;
 }
 #img2 img {
     height: 14px;
@@ -100,11 +101,19 @@ border-box{
     border: 1px solid #bbb;
     padding: 10px 30px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin: 50px auto;
-    background-color:#eee;
+    font-family: "AvenirNext","Avenir",Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 16px auto;
+    background-color: #fff;
 }
-
+.signup-intro {
+    padding: 14px 0px 0px 0px;
+    margin-top: 16px;
+}
+.signup-intro h1{
+    color: #4c4c4c;
+    font-weight: 100;
+    font-size: 23px;
+}
 .signup-form p {
     margin-top: 20px;
 }
@@ -116,7 +125,7 @@ input[type="password"] {
         -ms-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 
-    height: 30px;
+    height: 35px;
     border-radius: 3px;
     border: 1px solid #bbb;
     margin: 10px auto 30px auto;
@@ -125,7 +134,10 @@ input[type="password"] {
     font-size: 1rem;
     padding: 0 8px;
 }
-
+input[type="password"] {
+    background: url(https://raw.githubusercontent.com/joshysmart/mint-signup-form/master/img/lock-left.png) no-repeat 0 60%/22px 23px;
+    background-position: 285px 5px;
+}
 input[type="number"] {
     margin-bottom: 0;
 }
@@ -135,38 +147,50 @@ input[type="submit"] {
     color: white;
     width: 100%;
     padding: 14px;
-    background-color: rgb(42, 131, 219);
+    background-color: #0077c5;
     border-radius: 5px;
-    border-bottom: 1px solid gray;
-}
+    border:  #0077c5;
 
+}
 small {
     display: block;
-    margin: 5px 0 30px 0;
+    margin: 3px 0 30px 0;
+}
+
+#captcha small {
+    display: block;
+    margin: 25px 0 30px 0;
 }
 .Agreement {
-    line-height: 1.5rem;
-    font-size: 0.7rem;
     color: #999;
     padding: 15px 10px;
+    line-height: 1.4rem;
+    font-size: 13px;
+}
+#captcha {
+    background-color: #eceef1;
+    display: flex;
+    margin: 16px -30px -10px -30px;
+    justify-content: center;
 }
 
 a {
     text-decoration: none;
 }
-
 footer {
-    background-color: #eee;
-    margin: -10px -30px -10px -30px;
+    background-color: #eceef1;
+    margin: -10px 0px -10px -30px;
     width: auto;
     padding: 20px;
     font-size: .8rem;
     text-align: center;
+    line-height: 19px;
+    color: #505050;
 }
-ul{
+footer ul{
     display: inline-flex;
     list-style-type: none;
 }
-ul li{
-    padding: 4px;
+footer ul li {
+    margin-right: 14px;
 }
